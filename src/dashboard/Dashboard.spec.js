@@ -3,6 +3,13 @@ import renderer from 'react-test-renderer';
 import { render, fireEvent } from '@testing-library/react';
 import Dashboard from './Dashboard'
 
+//tests to add include async
+//passing the test outside of the class
+//snapshot for all
+//function was fired with mock function
+//what are spies?
+
+
 describe('<Dashboard/>', () => {
     it('should take a snapshot', () => {
         const snap = renderer.create(<Dashboard />).toJSON();
